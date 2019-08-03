@@ -1,0 +1,191 @@
+
+.skills
+{
+	width:40%;
+	margin:20px auto;
+	color:rgba(218,103,238,1);
+    position:relative;
+
+}
+.skills h1
+{
+	text-align: center;
+	font-size:30px;
+}
+.skills li
+{
+	margin: 20px 0;
+	font-size:15px;
+}
+.bar
+{
+	background:linear-gradient(to right,rgba(249,107,142,1),
+		rgba(218,103,238,1),
+		rgba(130,125,253,1));
+	display: block;
+	height: 10px;
+	border: 1px solid rgba(130,125,253,1);
+    border-radius: 3px;
+    overflow: hidden;
+   
+}
+.bar span
+{
+	height:10px;
+	float:left;
+	/*background:rgba(249,107,142,1);*/
+	background: #EFF1F7;
+	opacity:0.6;
+	
+}
+.html
+{
+	width:90%;
+	animation: html 2s;
+
+}
+.css
+{
+	width:60%;
+	animation: css 2s;
+	
+}
+.php
+{
+	width:65%;
+	animation: php 2s;
+}
+.JavaScript
+{
+	width:50%;
+	animation: JavaScript 2s;
+}
+.jquery
+{
+	width:55%;
+	animation: jquery 2s;
+}
+.sql
+{
+	width:40%;
+	animation: sql 2s;
+}
+.python
+{
+	width:45%;
+	animation: python 2s;
+}
+.wordpress
+{
+	width:60%;
+	animation: wordpress 2s;
+}
+@keyframes html
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:90%;
+	}
+}
+@keyframes css
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:60%;
+	}
+}
+@keyframes php
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:65%;
+	}
+}
+@keyframes JavaScript
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:50%;
+	}
+}
+@keyframes jquery
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:55%;
+	}
+}
+@keyframes python
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:40%;
+	}
+}
+@keyframes sql
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:45%;
+	}
+}
+@keyframes wordpress
+{
+	0%
+	{
+		width:0%;
+	}
+	100%
+	{
+		width:60%;
+	}
+}
+
+
+
+.work
+{
+	width:60%;
+	margin:20px auto;
+    
+}
+.work h1
+{
+	text-align:center;
+	font-size:28px;
+	color:rgba(218,103,238,1);
+}
+.work h2
+{
+	text-align:center;
+	font-size:20px;
+
+}

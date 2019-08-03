@@ -1,0 +1,149 @@
+
+#contact
+{
+	float:right;
+	list-style:none;
+	
+}
+
+
+#contact a
+{
+	text-decoration:none;
+	color:white;
+	padding:15px;
+	
+}
+#contact a:hover
+{
+    transition:2s;
+	background-color:skyblue;
+	color:black;
+	width:20px;
+	padding:10px;
+	border-radius:5px;
+}
+
+table
+{
+	
+	
+	width:80%;
+	height:300px;
+	color:white;
+	padding:5px;
+	margin:auto;
+	background:linear-gradient(to right,rgba(249,107,142,1),
+		rgba(218,103,238,1),
+		rgba(130,125,253,1));
+	border-radius:5px;
+ 
+	
+}
+table th
+{
+	border-radius:7px;
+	color:white;
+	margin-top:50px;
+	text-align:center;
+	
+}
+td
+{
+	text-align:center;
+	border-bottom:1px solid black;
+}
+
+#post
+{
+	height:50%;
+	width:50%;
+    
+	margin-top:39px;
+	
+}
+#know
+{
+	width:80%;
+	margin:auto;
+	height:50px;
+	
+}
+#dc
+{
+	width:80%;
+	height:120px;
+}
+
+#contact_table
+{
+	
+	width:30%;
+	height:20%;
+	color:white;
+	padding:5px;
+	margin:auto;
+	border-radius:5px;
+ 
+	
+}
+
+#button
+{
+	height:10%;
+	width:70%;
+	margin:auto;
+	background:rgba(249,107,142,1);
+	color:white;
+}
+#bottom
+{
+	text-align:center;
+	color:white;
+}
+
+
+
+#landing_page
+
+{
+	height:100%;
+	width:100%;
+	
+	
+}
+#myvideo
+{
+	height:100%;
+	width:100%;
+	
+	
+}
+#content
+{
+	margin:-35%;
+	
+}
+#header
+{
+	font-size:45px;
+	
+	
+}
+
+@media(min-width: 720px)
+{
+#contact_table
+{
+	
+	width:20%;
+	height:20%;
+	color:white;
+	padding:5px;
+	margin:auto;
+	border-radius:5px;
+ 
+	
+}
+
+}
