@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - sudo apt-get update
+      - sudo apt-get install -y nginx
+  pre_build:
+    commands:
+      - echo "Nothing to do in the pre_build phase"
+  build:
+    commands:
+      - echo "Nothing to build"
+  post_build:
+    commands:
+      - sudo rm -rf /var/www/html
+      - sudo ln -s $CODEBUILD_SRC_DIR/web /var/www/html
+      - sudo service nginx start
+      - echo "Website deployed successfully"
+
+artifacts:
+  files:
+    - web/**
+  base-directory: web
+  discard-paths: yes
