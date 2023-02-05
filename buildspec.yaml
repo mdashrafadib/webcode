@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-      - sudo apt-get update
-      - sudo apt-get install -y nginx
+      - sudo yum -y update
+      - sudo yum install -y nginx
   pre_build:
     commands:
       - echo "Nothing to do in the pre_build phase"
@@ -13,8 +13,8 @@ phases:
       - echo "Nothing to build"
   post_build:
     commands:
-      - sudo rm -rf /var/www/html
-      - sudo ln -s $CODEBUILD_SRC_DIR/web /var/www/html
+      - sudo rm -rf /usr/share/nginx/html
+      - sudo ln -s $CODEBUILD_SRC_DIR/web /usr/share/nginx/html
       - sudo service nginx start
       - echo "Website deployed successfully"
 
